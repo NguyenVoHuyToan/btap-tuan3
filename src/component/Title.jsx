@@ -18,18 +18,6 @@ export const BlockTitle = styled.div`
     border: 1px solid whitesmoke;
     
 `
- export const TitleBox =styled.div`
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 25%;
-    height: 100%;
-    padding-top: 30px;
-    transition: padding 1s;
-    border-right: 1px solid black;
- `;
-
-
 
 function Title() {
   return (

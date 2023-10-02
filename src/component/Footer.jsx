@@ -49,7 +49,7 @@ function Footer() {
             </LeftInfo>
             <RightInfo>
                 <div className='box-introduce'>
-                    <h2 className='h2footer' >Giới Thiệu</h2>
+                    <h2 className='h2footer' >"Giới Thiệu"</h2>
                         <li className='lifooter'><a className='afooter' href='#'>Về chúng tôi</a></li>
                         <br/>
                         <li><a className='afooter' href='#'>Dịch vụ</a></li>
