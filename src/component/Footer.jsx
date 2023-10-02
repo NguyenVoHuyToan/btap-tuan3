@@ -7,28 +7,33 @@ export const Block = styled.div`
 
 export const Cover = styled.div`
     width: 100%;
-    height: 100%;
+    height: 500px;
     display: flex;
     background-color: black;
     margin-top: 50px;
+    padding-top: 30px;
     border-bottom: 1px solid grey;
 `;
 
 export const LeftInfo = styled.div`
-    width: 30%;
+    width: 25%;
     height: 100%;
-    margin: 10px;
-    padding: 20px;
+    margin: 40px;
+    padding: 30px;
+    
 `;
 
 export const RightInfo = styled.div`
-    width: 70%;
+    width: 75%;
     height: 100%;
     display: flex;
-    margin-left: 10px;
+    justify-content: space-around;
+    /* margin-left: 10px; */
+    margin:40px;
 `;
 export const UnderInfo = styled.div`
     display: flex;
+    height: 150px;
     justify-content: center;
     align-items: center;
     background-color: black;

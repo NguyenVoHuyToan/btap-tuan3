@@ -1,14 +1,37 @@
+*{
+  box-sizing: border-box;
+}
+
+.background{
+  background-image: url(https://whitefoobank.netlify.app/assets/img/header-banner.jpg);
+  width: 100%;
+  height: 800px;
+}
+
 h1{
-  font-size: 50px;
+  
   color: white;
+  font-size: 60px;
 }
 p{
-  font-size: 30px;
+  
+  font-size: 20px;
   color:  white;
+  
+}
+ 
+.aheader{
+  display: flex;
+list-style: none;
+gap: 30px;
+margin-top: 20px;
+padding-right: 50px;
+text-decoration: none;   
 }
 a{
   text-decoration: none;
   color: white;
+  
 }
 
 a:hover{  
@@ -17,7 +40,7 @@ a:hover{
 }
 
 .atitle{
-  display: inline-block;
+  display: none;
   position: relative;
   color: red;
 }
@@ -31,7 +54,7 @@ a:hover{
   bottom: 0;
   left: 0;
   background-color: orange;
-  transform-origin: bottom right;
+  transform-origin: bottom left;
   transition: transform 0.25s ease-out;
 }
 
@@ -69,6 +92,7 @@ a:hover{
   height: 100%;
   list-style: none;
   margin: 10px;
+  
 }
 
 .box-support{
@@ -88,7 +112,7 @@ a:hover{
 
 
 .pfooter{
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .h2footer{
@@ -96,7 +120,27 @@ a:hover{
   border-bottom: 1px solid violet;
 }
 
+
+
 .spanfooter{
   color: white;
   
+}
+
+.titlebox{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    height: 100%;
+    padding-top: 40px;
+    transition: padding 1s;
+    border-right: 1px solid grey;
+}
+.titlebox:hover{
+  padding-top: 20px;
+  cursor: pointer;
+  .atitle{
+    display: flex;
+  }
 }

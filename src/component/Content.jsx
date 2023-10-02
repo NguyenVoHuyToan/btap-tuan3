@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 export const NewContent = styled.div`
     width: 50%;
-    padding-left: 50px;
+    padding: 50px;
 `
 
 function Content() {
